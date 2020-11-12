@@ -1,0 +1,25 @@
+{
+  "name": "proxBlockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-test": "nodemon block-test"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolarios/proxBlockchain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jolarios/proxBlockchain/issues"
+  },
+  "homepage": "https://github.com/jolarios/proxBlockchain#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

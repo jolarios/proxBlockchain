@@ -28,9 +28,9 @@ class Block{
 		return new this('Genesis Time', "0".repeat(64), "0".repeat(64), []);
 	}
 
-	static mine(lastHash, data){
+	static mine(lastBlock, data){
 		const timestamp = Date.now();
-		const lastHash = lastHash.hash;
+		const lastHash = lastBlock.hash;
 		const hash = '0'.repeat(64);
 		return new this(timestamp, lastHash, hash, data);
 	}
